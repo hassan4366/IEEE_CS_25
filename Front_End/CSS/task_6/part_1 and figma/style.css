@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.box {
+    width: 600px;
+    background-color: #eee;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 20px solid;
+    border-image: linear-gradient(
+        to right, 
+        rgb(255, 153, 0)  10%,rgb(255, 153, 0) 10% 25%, green 25% 40%, 
+        deeppink 40% 55%, purple 55% 70%, rgb(255, 153, 0) 70%
+    ) 1;
+}
+
+.letter {
+    color: rgb(255, 81, 0);
+}

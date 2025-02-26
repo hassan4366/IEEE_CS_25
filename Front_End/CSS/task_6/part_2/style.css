@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 10% auto 10%;
+    grid-template-columns: 75% 25%;
+    grid-template-areas: 
+        "header header"
+        "section aside"
+        "footer footer";
+}
+
+header {
+    grid-area: header;
+    background-color: #1DA1F2;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+section {
+    grid-area: section;
+    background-color: #E6511E;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+aside {
+    grid-area: aside;
+    background-color: #5E7179;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #11887A;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+header::before {
+    content: "Header";
+    color: white;
+    font-size: 20px;
+}
+
+section::before {
+    content: "Section";
+    color: white;
+    font-size: 20px;
+}
+
+aside::before {
+    content: "Aside";
+    color: white;
+    font-size: 20px;
+}
+
+footer::before {
+    content: "Footer";
+    color: white;
+    font-size: 20px;
+}

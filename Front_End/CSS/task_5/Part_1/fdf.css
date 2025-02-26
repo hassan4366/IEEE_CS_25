@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+p {
+    position: relative;
+    background-color: #e3e3e3;
+    padding: 20px 25px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    width: 700px; 
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+
+p::before {
+    content: counter(product-counter);
+    counter-increment: product-counter;
+    background-color: #e63932;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+p::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 5px;
+    background-color: #e63932;
+    border-radius: 6px;
+}
+
+
+body {
+    counter-reset: product-counter;
+}

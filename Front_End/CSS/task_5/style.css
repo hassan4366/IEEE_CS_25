@@ -1,0 +1,68 @@
+
+:root {
+    --bg-color: #eee;
+    --text-color: rgb(10, 7, 7);
+    --font-size:20px;
+    --padding:17px;
+    --gap: 30px;
+    --border-radius: 15px;
+}
+
+body {
+    font-size: var(--font-size);
+    color: var(--text-color);
+    height: 50px;
+    background-color: white;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--bg-color);
+    padding: var(--padding);
+}
+
+.logo {
+   
+    width: 20px;
+   
+}
+
+nav a {
+    margin-left: var(--gap);
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* الجسم الرئيسي */
+main {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--gap);
+    padding: var(--padding);
+    background: var(--bg-color);
+}
+
+.content {
+    flex: 4;
+    background: var(--bg-color);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+}
+
+.sidebar {
+    flex: 1;
+    background: var(--bg-color);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background: var(--bg-color);
+    padding: var(--padding);
+    margin-top: var(--gap);
+}

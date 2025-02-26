@@ -1,0 +1,40 @@
+:root {
+    --main-color: #00897b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+h1 {
+    position: relative;
+    display: inline-block;
+    background-color: var(--main-color);
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px 60px;
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 10% 100%, 0% 50%);
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 0;
+    bottom: 0;
+    width: 15px;
+    background-color: white;
+    clip-path: polygon(0 0, 40% 0, 100% 100%, 60% 100%);
+}

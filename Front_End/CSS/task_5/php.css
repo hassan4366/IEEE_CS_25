@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+p {
+    position: relative;
+    background-color: #e3e3e3;
+    padding: 15px 20px;
+    margin: 10px 0;
+    width: 450px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+
+p::before {
+    content: attr(data-person);
+    background-color: #d3d3d3;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    width: 120px;
+    border-radius: 5px;
+    position: absolute;
+    left: -140px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-left: #d71a5d solid 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p::after {
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 20px solid #d71a5d;
+}
+

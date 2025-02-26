@@ -1,0 +1,13 @@
+div {
+    display: inline-block;
+    text-align: center;
+
+    margin: 4px;
+    padding: 4px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 7px 3px rgb(35, 162, 212);
+    background-color: #eee;
+    border-radius: 200px;
+    
+}
