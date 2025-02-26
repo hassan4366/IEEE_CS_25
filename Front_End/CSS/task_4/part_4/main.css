@@ -1,0 +1,33 @@
+.green {
+    background-color: black;
+    position: absolute ;
+    height: 150px;
+    width: 150px;
+    top: 10px;
+}
+.red {
+    background-color: rgb(11, 120, 223);
+    position: absolute ;
+    height: 150px;
+    width: 150px;
+    top:2px;
+    left: 20pxs;
+}
+.blue {
+    background-color: rgb(41, 201, 113);
+    position: absolute ;
+    height: 150px;
+    width: 150px;
+    top: 20px;
+    left: 15px;
+
+}
+.black {
+    background-color: orangered;
+    position: absolute ;
+    height: 150px;
+    width: 150px;
+    top: 30px;
+    left: 26px;
+   
+ }

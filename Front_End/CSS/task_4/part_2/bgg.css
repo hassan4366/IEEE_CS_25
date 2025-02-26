@@ -1,0 +1,21 @@
+.non {
+    font-style: oblique;
+    font-weight: 300;
+    text-align: center;
+    font-size: xx-large;
+}
+.non2 {
+    font-style: cairo;
+    font-weight: 700;
+    text-align: center;
+    font-size: xx-large;
+    margin: 3px;
+
+}
+.non3 {
+    font-style: jomhuria;
+    font-weight: 400;
+    text-align: center;
+    margin: 5px;
+}
+    

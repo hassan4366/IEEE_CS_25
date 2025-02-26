@@ -1,0 +1,17 @@
+<!-- Type Question 1 Answer Below -->
+answer:<!Doctype html>
+
+<!-- Type Question 2 Answer Below -->
+  Rander mode: Quirks mode.
+
+<!-- Type Question 3 Answer Below -->
+ NO
+
+<!-- Type Question 4 Answer Below -->
+ NO
+
+<!-- Type Question 5 Answer Below -->
+ <h1>العنوان الرئيسي للصفحه وهو الاكثر اهميه 
+ <h2>عنوان فرعي يستخدم لتقسيم المحتوي 
+ <h3> <h2>,عنوان فرعي داخل قسم 
+ <h4>_<h5>_<h6>:تستخدم كعناوين فرعيه اقل اهميه 

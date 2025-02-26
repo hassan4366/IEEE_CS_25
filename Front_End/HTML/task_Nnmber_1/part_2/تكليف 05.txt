@@ -1,0 +1,8 @@
+title:global Attribute
+href :NO global Attribute
+src  :NO global Attribute
+hidden:global Attribute
+charset:NO global Attribute
+class  :global Attribute
+id :global Attribute
+type:NO global Attribute

@@ -1,0 +1,19 @@
+div {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color:#ece9e9;
+    color: rgb(0, 0, 0);
+   
+}
+.one {
+    opacity: .6;
+}
+.two {
+    opacity: .1;
+}
+
+
+  

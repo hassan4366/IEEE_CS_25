@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    gap: 20px;
+}
+.div1 {
+    width: 200px;
+    height: 100px;
+    padding: 40px 30px 20px ;
+    border-width: 5px;
+
+    border-color: red;
+    border-style: solid;
+    }

@@ -1,0 +1,22 @@
+.assign-1-shape-1 {
+    background-color: blueviolet;
+    width: 500px;
+    margin:  10px auto;
+    font-size:x-large;
+    padding: 20px;
+}
+.assign-1-shape-2 {
+    width: 500px;
+    margin:  10px auto;
+    background-color: rgba(130, 126, 168, 0.5);
+    font-size:x-large;
+    padding: 20px;
+}
+.assign-1-shape-3 {
+    width: 500px;
+    margin:  10px auto;
+    background-color: rgba(130, 126, 168, 0.1);
+    font-size:x-large;
+    padding: 20px;
+    opacity: .2;
+}
