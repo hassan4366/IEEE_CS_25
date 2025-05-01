@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Timer</title>
+  </head>
+  <body>
+    <h1>Countdown to May 25, 2025 - 9:00 AM</h1>
+    <div class="timer" id="countdown">
+      <div class="unit">
+        <div class="number" id="days">00</div>
+        <div class="label">day</div>
+      </div>
+      <div class="unit">
+        <div class="number" id="hours">00</div>
+        <div class="label">hour</div>
+      </div>
+      <div class="unit">
+        <div class="number" id="minutes">00</div>
+        <div class="label">minute</div>
+      </div>
+      <div class="unit">
+        <div class="number" id="seconds">00</div>
+        <div class="label">second</div>
+      </div>
+    </div>
+
+    <div class="expired" id="expiredMsg" style="display: none">
+      The appointment has been reached!
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

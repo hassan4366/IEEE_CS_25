@@ -1,0 +1,66 @@
+body {
+  background: rgb(106, 150, 233);
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.timer {
+  display: flex;
+  gap: 30px;
+  font-size: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+.timer:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(255, 255, 253, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number {
+  font-size: 20px;
+  font-weight: bold;
+}
+.unit:hover .number {
+  transform: scale(1.2);
+  color: #5dff1d;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.unit:hover .label {
+  color: #57f4ff;
+  transition: color 0.3s ease;
+}
+
+.label {
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.expired {
+  font-size: 20px;
+  color: #5fc1fa;
+  margin-top: 20px;
+}
