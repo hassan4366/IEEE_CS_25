@@ -1,0 +1,39 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "author": "Ahmed",
+      "category": "Technology",
+      "title": "The Future of Artificial Intelligence",
+      "content": "Artificial Intelligence is rapidly evolving and impacting various aspects of our daily lives..."
+    },
+    {
+      "id": 2,
+      "author": "Mohammed",
+      "category": "Health",
+      "title": "Benefits of Sleeping Early",
+      "content": "Sleeping early plays a major role in maintaining both physical and mental well-being..."
+    },
+    {
+      "id": 3,
+      "author": "Khaled",
+      "category": "Culture",
+      "title": "The Importance of Daily Reading",
+      "content": "Reading expands the mind and helps develop intellectual and social skills..."
+    },
+    {
+      "id": 4,
+      "author": "Samir",
+      "category": "Sports",
+      "title": "Best Home Workouts",
+      "content": "You can perform effective workouts at home without needing complex equipment..."
+    },
+    {
+      "id": 5,
+      "author": "Hussein",
+      "category": "Economy",
+      "title": "Understanding Personal Finance",
+      "content": "Personal finance is about managing money wisely and achieving financial goals..."
+    }
+  ]
+}
