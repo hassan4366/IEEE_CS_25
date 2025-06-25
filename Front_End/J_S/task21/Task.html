@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Articles</title>
+  </head>
+  <body>
+    <div id="articles-container"></div>
+
+    <script>
+      const articles = [
+        {
+          userId: 10,
+          title: "Article Title Number 1",
+          description: "Article Description Number 1",
+        },
+        {
+          userId: 5,
+          title: "Article Title Number 2",
+          description: "Article Description Number 2",
+        },
+        {
+          userId: 5,
+          title: "Article Title Number 3",
+          description: "Article Description Number 3",
+        },
+        {
+          userId: 5,
+          title: "Article Title Number 4",
+          description: "Article Description Number 4",
+        },
+        {
+          userId: 5,
+          title: "Article Title Number 5",
+          description: "Article Description Number 5",
+        },
+        {
+          userId: 5,
+          title: "Article Title Number 6",
+          description: "Article Description Number 6",
+        },
+        {
+          userId: 25,
+          title: "Article Title Number 7",
+          description: "Article Description Number 7",
+        },
+        {
+          userId: 25,
+          title: "Article Title Number 8",
+          description: "Article Description Number 8",
+        },
+        {
+          userId: 15,
+          title: "Article Title Number 9",
+          description: "Article Description Number 9",
+        },
+        {
+          userId: 15,
+          title: "Article Title Number 10",
+          description: "Article Description Number 10",
+        },
+      ];
+
+      function getFirstFiveArticles(data) {
+        return new Promise((resolve, reject) => {
+          if (data.length < 1) {
+            reject("No Articles Found");
+          } else {
+            resolve(data.slice(0, 5));
+          }
+        });
+      }
+      getFirstFiveArticles(articles)
+        .then((fiveArticles) => {
+          const container = document.getElementById("articles-container");
+
+          fiveArticles.forEach((article) => {
+            const div = document.createElement("div");
+
+            const title = document.createElement("h3");
+            title.textContent = article.title;
+
+            const description = document.createElement("p");
+            description.textContent = article.description;
+
+            div.appendChild(title);
+            div.appendChild(description);
+
+            container.appendChild(div);
+          });
+        })
+        .catch((error) => {
+          console.error("Not correct", error);
+        });
+    </script>
+  </body>
+</html>
