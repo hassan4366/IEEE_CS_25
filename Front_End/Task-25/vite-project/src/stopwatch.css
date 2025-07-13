@@ -1,0 +1,61 @@
+body {
+  background-color: #7a93c0;
+  font-family: poppins, sans-serif;
+}
+
+.stopwatch-title {
+  color: white;
+  font-size: 40px;
+}
+
+/* الصندوق المحيط بالتوقيت */
+.stopwatch-box {
+  background-color: #5d74c1;
+  width: 290px;
+
+  padding: 30px 20px;
+  border-radius: 40px;
+  text-align: center;
+}
+
+/* الدائرة */
+.stopwatch-circle {
+  background-color: #465a9d;
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+/* الوقت */
+.stopwatch-time {
+  color: white;
+  font-size: 45px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* مجموعة الأزرار */
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 24px;
+}
+
+/* الأزرار */
+.button {
+  background-color: #0a1a4f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #152b79;
+}
