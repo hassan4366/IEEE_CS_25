@@ -8,7 +8,6 @@ body {
   font-size: 40px;
 }
 
-/* الصندوق المحيط بالتوقيت */
 .stopwatch-box {
   background-color: #5d74c1;
   width: 290px;
@@ -18,7 +17,6 @@ body {
   text-align: center;
 }
 
-/* الدائرة */
 .stopwatch-circle {
   background-color: #465a9d;
   width: 290px;
@@ -31,14 +29,12 @@ body {
   margin-bottom: 20px;
 }
 
-/* الوقت */
 .stopwatch-time {
   color: white;
   font-size: 45px;
   font-family: "Courier New", Courier, monospace;
 }
 
-/* مجموعة الأزرار */
 .button-group {
   display: flex;
   justify-content: center;
@@ -46,7 +42,6 @@ body {
   gap: 24px;
 }
 
-/* الأزرار */
 .button {
   background-color: #0a1a4f;
   color: white;
