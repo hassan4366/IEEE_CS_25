@@ -26,7 +26,7 @@ function App() {
             >
               <img
                 src={card.images[0]}
-                className="w-29 h-28 mx-auto object-cover mb-4"
+                className="w-30 h-29 mx-auto object-cover mb-5"
               />
               <h5 className="text-white text-xl font-bold mb-2">
                 {card.title}
@@ -35,7 +35,7 @@ function App() {
                 {(() => {
                   const words = card.description.split(" ");
                   return words.length > 10
-                    ? words.slice(0, 10).join(" ") + " .."
+                    ? words.slice(0, 10).join(" ") + ".."
                     : card.description;
                 })()}
               </p>
@@ -43,7 +43,7 @@ function App() {
                 <span className="text-green-500 font-semibold text-lg">
                   ${card.price}
                 </span>
-                <button className="bg-[#9810fa] text-white rounded-md px-4 py-1 font-medium hover:bg-[#7a0dc7] transition">
+                <button className="bg-[#a771ce] text-white rounded-md px-4 py-1 font-medium hover:bg-[#6700b1] transition">
                   View
                 </button>
               </div>
